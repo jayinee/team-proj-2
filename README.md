@@ -1,7 +1,7 @@
 
 # Encyclopedia  `<h1>`
 
-*Usage:*
+##Usage:
 
 
 The header "h1" tag in HTML is a first and largest tag of the post.
@@ -11,11 +11,11 @@ If anybody will break the tag numbers the heading structure will become unorgani
 
 A heading element implies all the font changes, paragraph breaks and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5 and H6 where H1 is the highest and important first level tag and H6 is the least important tag. 
 
-*Attributes:*
+##Attributes:
 
 
 
-Attribute Values:
+##Attribute Values:
 
 
 |  Sr. No.|   Value    |Description                             |
@@ -28,7 +28,7 @@ Attribute Values:
 
 ```<h1 align=”left|right|center|justify”>```
 
-*Example:*
+##Example:
 
 ```
 <h1> Modern Developer </h1>
@@ -51,14 +51,14 @@ font-weight: bold;
 ```
 # Encyclopedia  `Border-bottom-color`
 
-*Usage:*
+##Usage:
 
 It is one of the properties of CSS. It sets the color of an element’s bottom border. Its default value is color of the element. 
 
-*Prerequisite:*
+##Prerequisite:
 Always declare the border-style property before border-bottom-color property. 
 
-*Properties and Values:*
+##Properties and Values:
 	
 	
 |Sr. No.|Value	        |Description                                                            |
@@ -67,7 +67,8 @@ Always declare the border-style property before border-bottom-color property.
 |3	|Initial	|Sets this property to its default value.                               |
 |4	|Inherit	|Inherits this property from its parent element.                        |
 
-*Syntax:*
+##Syntax:
+
 ```
 Object,style.borderBottomColor = “color|transparent|initial|inherit”
 ```
@@ -77,7 +78,7 @@ Object,style.borderBottomColor = “color|transparent|initial|inherit”
 |Property	        |Chrome	|IE/Edge |FireFox |Safari	|Opera
 |Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	        |3.5
 
-*Examples:*
+##Examples:
 
 A.Change the color of the bottom border of a <div> element to blue:
 
@@ -95,26 +96,45 @@ Border-bottom-color=#000;
 
 # Encyclopedia  `Infinity`
 
-Infinity is a positive value that represents positive infinity. It displays when a number exceeds upper limit of the floating point numbers, which is 1.797693134862315E+308. 
+##Description:
 
--Infinity is a negative value that represents negative infinity. It displays when a number exceeds the lower limit of the floating point numbers which is 
--1.797693134862315E+308.
+Infinity is a property of the global object, i.e. it is a variable in global scope.
 
-It is a property of the global object. i.e. it is a variable in global scope. The initial value of Infinity is Number.Positive.INFINITY. The value of positive infinity is greater than any other number.
+The initial value of Infinity is Number.POSITIVE_INFINITY. The value Infinity (positive infinity) is greater than any other number. This value behaves mathematically like infinity; for example, any positive number multiplied by Infinity is Infinity, and anything divided by Infinity is 0.
 
-•	Any value multiplied by INFINITY is always INFINITY. 
-e.g. 3 * Infinity = INFINITY
+Per the ECMAScript 5 specification, Infinity is read only (implemented in JavaScript 1.8.5 / Firefox 4).
 
-•	Anything divided by infinity is ZERO.
-e.g. 3/Infinity = 0
+The global Infinity property is a numeric value representing infinity.
 
-•	Anything divided by zero is INFINITY.
-e.g. 3/0 = INFINITY
+|Property attributes of Infinity|
+|Writable	|no
+|Enumerable	|no
+|Configurable	|no
 
-•	Can’t play positive and negative infinity against each other.
-e.g. Infinity-Infinity = NaN (Not a Number)
+##Examples:
 
-•	Two positive Infinity summation is also INFINITY.
-e.g. Infinity + Infinity = INFINITY
+```
+console.log(Infinity         ); /* Infinity */  
+console.log(Infinity + 1     ); /* Infinity */  
+console.log(Math.pow(10,1000)); /* Infinity */  
+console.log(Math.log(0)      ); /* -Infinity */  
+console.log(1 / Infinity     ); /* 0 */
+
+```
+
+##Syntax:
+
+```
+Infinity 
+```
+##Specifications:
 
 
+|Specification	                                       |Status	                      |Comment
+|ECMAScript 1st Edition (ECMA-262)	               |Standard	              |Initial definition. Implemented in JavaScript 1.3
+|ECMAScript 5.1 (ECMA-262)
+ The definition of 'Infinity' in that specification.   |Standard	 
+|ECMAScript 2015 (6th Edition, ECMA-262)
+ The definition of 'Infinity' in that specification.   |Standard	 
+|ECMAScript 2017 Draft (ECMA-262)
+ The definition of 'Infinity' in that specification.   |Draft	 
