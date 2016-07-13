@@ -107,9 +107,9 @@ Per the ECMAScript 5 specification, Infinity is read only (implemented in JavaSc
 The global Infinity property is a numeric value representing infinity.
 
 |Property attributes of Infinity|
-|Writable	|no
-|Enumerable	|no
-|Configurable	|no
+|Writable	                |no |
+|Enumerable	                |no |
+|Configurable	                |no |
 
 ##Examples:
 
@@ -130,11 +130,20 @@ Infinity
 ##Specifications:
 
 
-|Specification	                                       |Status	                      |Comment
-|ECMAScript 1st Edition (ECMA-262)	               |Standard	              |Initial definition. Implemented in JavaScript 1.3
-|ECMAScript 5.1 (ECMA-262)
- The definition of 'Infinity' in that specification.   |Standard	 
-|ECMAScript 2015 (6th Edition, ECMA-262)
- The definition of 'Infinity' in that specification.   |Standard	 
-|ECMAScript 2017 Draft (ECMA-262)
- The definition of 'Infinity' in that specification.   |Draft	 
+|Specification	                                       |Status	             |Comment                                           |
+|**ECMAScript 1st Edition (ECMA-262)**	               |Standard	     |Initial definition. Implemented in JavaScript 1.3 |
+|**ECMAScript 5.1 (ECMA-262)                                                                                                    |
+|The definition of 'Infinity' in that specification.** |Standard             |	                                                |     
+|**ECMAScript 2015 (6th Edition, ECMA-262)                                                                                      |
+|The definition of 'Infinity' in that specification.** |Standard	     |                                                  |
+|**ECMAScript 2017 Draft (ECMA-262)                                                                                             |
+|The definition of 'Infinity' in that specification.** |Draft                |	                                                |     
+
+
+##Browser compatibility:
+
+
+*Desktop*
+
+|Feature	   |Chrome	|Firefox(Gecko)	|Internet Explorer	|Opera	|Safari|
+|Basic support	   |(Yes)	|(Yes)	        |(Yes)	                |(Yes)	|(Yes) |
