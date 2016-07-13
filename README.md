@@ -11,7 +11,7 @@ If anybody will break the tag numbers the heading structure will become unorgani
 
 A heading element implies all the font changes, paragraph breaks and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5 and H6 where H1 is the highest and important first level tag and H6 is the least important tag. 
 
-Attributes:
+*Attributes:*
 
 A.	Align: Horizontal alignment of a heading.
 
@@ -26,16 +26,17 @@ Attribute Values:
 |   4	  | Justify    | The heading is justified to both margin|
 
 
-<h1 align=”left|right|center|justify”>
+*<h1 align=”left|right|center|justify”>*
 
-Example:
-
+*Example:*
+```
 <h1> Modern Developer </h1>
 		Output:		
 Modern Developer 
+```
 
-Default CSS settings of <h1> tag:
-
+*Default CSS settings of <h1> tag:*
+```
 h1 {
 	   	display: block;
 	  	 font-size: 2em;
@@ -45,7 +46,7 @@ margin-left: 0;
 margin-right: 0;
 font-weight: bold;
 }
-
+```
 
 
 
