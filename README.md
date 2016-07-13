@@ -76,9 +76,9 @@ Object,style.borderBottomColor = “color|transparent|initial|inherit”
 
 *The below list is showing list of all browsers which supports this property.*
 
-|Property	        |Chrome	|IE/Edge |FireFox |Safari	|Opera|
-|-----------------------|-------|--------|--------|-------------|-----|
-|Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	        |3.5  |
+|Property	        |Chrome	|IE/Edge |FireFox |Safari |Opera|
+|-----------------------|-------|--------|--------|-------|-----|
+|Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	  |3.5  |
 
 ##Examples:
 
@@ -138,12 +138,12 @@ Infinity
 |**ECMAScript 1st Edition (ECMA-262)**	               |Standard	     |Initial definition. Implemented in JavaScript 1.3 |
 |**ECMAScript 5.1 (ECMA-262)**                         |Standard             |                                                  |    
 |**ECMAScript 2015 (6th Edition, ECMA-262)**           |Standard             |                                                  |     
-|**ECMAScript 2017 Draft (ECMA-262)                    |Draft                |                                                  |
+|**ECMAScript 2017 Draft (ECMA-262)**                  |Draft                |                                                  |
 
 
 ##Browser compatibility:
 
 
-|Feature	   |Chrome	|Firefox(Gecko)	|Internet Explorer	|Opera	|Safari|
-|------------------|------------|---------------|-----------------------|-------|------|
-|Basic support	   |(Yes)	|(Yes)	        |(Yes)	                |(Yes)	|(Yes) |
+|Feature	   |Chrome	|Firefox(Gecko)	|Internet Explorer  |Opera  |Safari|
+|------------------|------------|---------------|-------------------|-------|------|
+|Basic support	   |(Yes)	|(Yes)	        |(Yes)	            |(Yes)  |(Yes) |
