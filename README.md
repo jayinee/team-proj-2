@@ -1,8 +1,13 @@
 
 # Encyclopedia  `<h1>`
-<hr>
-Usage:
-The header '<h1>' tag in HTML is a first and largest tag of the post. It will be having main title as it is a largest text of the document. In HTML coding the header tags from h1 to h6 form a hierarchy. If anybody will break the tag numbers the heading structure will become unorganized.   
+
+*Usage:*
+
+
+The header "h1" tag in HTML is a first and largest tag of the post.
+It will be having main title as it is a largest text of the document.
+In HTML coding the header tags from h1 to h6 form a hierarchy.
+If anybody will break the tag numbers the heading structure will become unorganized.
 
 A heading element implies all the font changes, paragraph breaks and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5 and H6 where H1 is the highest and important first level tag and H6 is the least important tag. 
 
