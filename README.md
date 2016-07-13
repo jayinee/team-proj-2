@@ -13,7 +13,7 @@ A heading element implies all the font changes, paragraph breaks and any white s
 
 *Attributes:*
 
-A.	Align: Horizontal alignment of a heading.
+
 
 Attribute Values:
 
@@ -26,84 +26,74 @@ Attribute Values:
 |   4	  | Justify    | The heading is justified to both margin|
 
 
-*<h1 align=”left|right|center|justify”>*
+```<h1 align=”left|right|center|justify”>```
 
 *Example:*
+
 ```
 <h1> Modern Developer </h1>
-		Output:		
-Modern Developer 
+
 ```
 
 *Default CSS settings of <h1> tag:*
+
 ```
 h1 {
-	   	display: block;
-	  	 font-size: 2em;
+display: block;
+font-size: 2em;
 margin-top: 0.67 em;
 margin-bottom: 0.67 em;
 margin-left: 0;
 margin-right: 0;
 font-weight: bold;
 }
+
 ```
+# Encyclopedia  `Border-bottom-color`
 
+*Usage:*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.	Border-bottom-color:
-
-Usage:
 It is one of the properties of CSS. It sets the color of an element’s bottom border. Its default value is color of the element. 
 
-Prerequisite:
+*Prerequisite:*
 Always declare the border-style property before border-bottom-color property. 
 
-Properties and Values:
+*Properties and Values:*
 	
-Sr. No.	Value	Description
-1	Color	Specifies background color. Default color is the color of the element.
-2	Transparent	Specifies that the border color should be transparent.
-3.	Initial	Sets this property to its default value. 
-4.	Inherit	Inherits this property from its parent element.
+	
+|Sr. No.|Value	        |Description                                                            |
+|1	|Color	        |Specifies background color. Default color is the color of the element. |
+|2	|Transparent    |Specifies that the border color should be transparent.                 |
+|3	|Initial	|Sets this property to its default value.                               |
+|4	|Inherit	|Inherits this property from its parent element.                        |
 
-Syntax:
-	Object,style.borderBottomColor = “color|transparent|initial|inherit”
-The below list is showing list of all browsers which supports this property.
+*Syntax:*
+```
+Object,style.borderBottomColor = “color|transparent|initial|inherit”
+```
 
-Property	Chrome	IE/Edge	FireFox	Safari	Opera
-Border-bottom-color	1.0	4.0	1.0	1.0	3.5
+*The below list is showing list of all browsers which supports this property.*
 
-Examples:
-A.	.Change the color of the bottom border of a <div> element to blue:
+|Property	        |Chrome	|IE/Edge |FireFox |Safari	|Opera
+|Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	        |3.5
+
+*Examples:*
+
+A.Change the color of the bottom border of a <div> element to blue:
+
+```
 Document.getElementById (“div1”).style.borderBottomColor = “blue”;
-B.	In this example assigning black color to bottom border of paragraph.
+```
+B.In this example assigning black color to bottom border of paragraph.
+
+```
 #tutorial p{
 Border-bottom-color=#000;
 }
-3.	Infinity: 
+
+```
+
+# Encyclopedia  `Infinity`
 
 Infinity is a positive value that represents positive infinity. It displays when a number exceeds upper limit of the floating point numbers, which is 1.797693134862315E+308. 
 
