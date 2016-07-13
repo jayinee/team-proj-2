@@ -35,7 +35,7 @@ A heading element implies all the font changes, paragraph breaks and any white s
 
 ```
 
-*Default CSS settings of <h1> tag:*
+*Default CSS settings of h1 tag:*
 
 ```
 h1 {
@@ -62,6 +62,7 @@ Always declare the border-style property before border-bottom-color property.
 	
 	
 |Sr. No.|Value	        |Description                                                            |
+|-------|---------------|-----------------------------------------------------------------------|
 |1	|Color	        |Specifies background color. Default color is the color of the element. |
 |2	|Transparent    |Specifies that the border color should be transparent.                 |
 |3	|Initial	|Sets this property to its default value.                               |
@@ -75,8 +76,9 @@ Object,style.borderBottomColor = “color|transparent|initial|inherit”
 
 *The below list is showing list of all browsers which supports this property.*
 
-|Property	        |Chrome	|IE/Edge |FireFox |Safari	|Opera
-|Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	        |3.5
+|Property	        |Chrome	|IE/Edge |FireFox |Safari	|Opera|
+|-----------------------|-------|--------|--------|-------------|-----|
+|Border-bottom-color	|1.0	|4.0	 |1.0	  |1.0	        |3.5  |
 
 ##Examples:
 
@@ -106,7 +108,8 @@ Per the ECMAScript 5 specification, Infinity is read only (implemented in JavaSc
 
 The global Infinity property is a numeric value representing infinity.
 
-|Property attributes of Infinity|
+|Property attributes of Infinity|   |
+|-------------------------------|---|
 |Writable	                |no |
 |Enumerable	                |no |
 |Configurable	                |no |
@@ -131,6 +134,7 @@ Infinity
 
 
 |Specification	                                       |Status	             |Comment                                           |
+|------------------------------------------------------|---------------------|--------------------------------------------------|
 |**ECMAScript 1st Edition (ECMA-262)**	               |Standard	     |Initial definition. Implemented in JavaScript 1.3 |
 |**ECMAScript 5.1 (ECMA-262)                                                                                                    |
 |The definition of 'Infinity' in that specification.** |Standard             |	                                                |     
@@ -146,4 +150,5 @@ Infinity
 *Desktop*
 
 |Feature	   |Chrome	|Firefox(Gecko)	|Internet Explorer	|Opera	|Safari|
+|------------------|------------|---------------|-----------------------|-------|------|
 |Basic support	   |(Yes)	|(Yes)	        |(Yes)	                |(Yes)	|(Yes) |
