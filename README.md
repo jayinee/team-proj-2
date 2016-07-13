@@ -16,11 +16,14 @@ Attributes:
 A.	Align: Horizontal alignment of a heading.
 
 Attribute Values:
-Sr. No.	Value	Description
-1	Left	Left aligns the heading
-2	Right	Right aligns the heading
-3	Center	Center aligns the heading
-4	Justify	The heading is justified to both margin
+
+
+|  Sr. No.|   Value    |Description                             |
+|---------|------------|----------------------------------------|
+|   1	  | Left       | Left aligns the heading                |
+|   2	  | Right      | Right aligns the heading               |
+|   3	  | Center     | Center aligns the heading              |
+|   4	  | Justify    | The heading is justified to both margin|
 
 
 <h1 align=”left|right|center|justify”>
